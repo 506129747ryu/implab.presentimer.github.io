@@ -35,7 +35,7 @@ p#timer {
 
 p#elapsed_timer {
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 45px;
 }
 
 span#minutes, span#seconds {

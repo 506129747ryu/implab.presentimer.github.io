@@ -171,6 +171,9 @@ window.onload = function() {
     minRest1.value = limitTime - minutes[0];
     minPass2.value = minutes[1];
     minRest2.value = limitTime - minutes[1];
+    // 三番目の時間を追加
+    minPass3.value = minutes[2];
+    minRest3.value = limitTime - minutes[2];
 
     startBtn.addEventListener("click", function() {
         statusLbl.innerText = "残り";

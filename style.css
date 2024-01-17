@@ -35,7 +35,12 @@ p#timer {
 
 p#elapsed_timer {
     margin: 0 auto;
-    font-size: 45px;
+    font-size: 50px;
+}
+
+p#discription {
+    margin: 0 auto;
+    font-size: 20px;
 }
 
 span#minutes, span#seconds {
@@ -46,18 +51,6 @@ section#controller {
     height: 210px;
     font-size: 20px;
 }
-
-/* button {
-    display: inline-block;
-    padding: 0.5em 1em;
-    width: 120px;
-    font-size: 18px;
-    text-decoration: none;
-    color: #263238;
-    background: #FAFAFA;
-    border-bottom: solid 4px #E0E0E0;
-    border-radius: 3px;
-} */
 
 button{
     display: inline-block;

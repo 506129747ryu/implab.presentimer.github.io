@@ -47,7 +47,7 @@ section#controller {
     font-size: 20px;
 }
 
-button {
+/* button {
     display: inline-block;
     padding: 0.5em 1em;
     width: 120px;
@@ -57,6 +57,38 @@ button {
     background: #FAFAFA;
     border-bottom: solid 4px #E0E0E0;
     border-radius: 3px;
+} */
+
+button{
+    display: inline-block;
+    padding: 0.5em 1em;
+    width: 120px;
+    font-size: 18px;
+    text-decoration: none;
+    /* width、heightにpaddingやborderの幅を含めます。無くてもよいですがこうしておくとレイアウトがしやすいです。 */
+    box-sizing: border-box;
+    /* 境界線は無し */
+    border: none;
+    /* 輪郭線は無し */
+    outline: none;
+    /* ボタンにカーソルが当たった時に人差し指マークを表示する */
+    cursor: pointer;
+    /* 文字色は白 */
+    color: black;
+    /* 背景色は紫 */
+    background-color: #FFFFFF;
+    /* パッディング(ボタン内側の余白)の設定 上下10px、左右16px */
+    padding: 10px 16px;
+    /* ボタンの角を少し丸くする */
+    border-radius: 4px;
+    /* ボタンに影をつける */
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),0px 2px 2px 0px rgba(0, 0, 0, 0.14),0px 1px 5px 0px rgba(0,0,0,.12);
+    /* 影をふわっと表示させる */
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* 波紋用spanタグをボタン内に配置するための設定 */
+    position: relative;
+    /* 波紋がボタンからはみ出ないようにする */
+    overflow: hidden;
 }
 
 button:active {
@@ -66,9 +98,38 @@ button:active {
 }
 
 button:disabled {
+    display: inline-block;
+    padding: 0.5em 1em;
+    width: 120px;
+    font-size: 18px;
+    text-decoration: none;
+    /* width、heightにpaddingやborderの幅を含めます。無くてもよいですがこうしておくとレイアウトがしやすいです。 */
+    box-sizing: border-box;
+    /* 境界線は無し */
+    border: none;
+    /* 輪郭線は無し */
+    outline: none;
+    /* ボタンにカーソルが当たった時に人差し指マークを表示する */
+    cursor: pointer;
+    /* 文字色は白 */
     color: #BDBDBD;
-    background: #E0E0E0;
-    border-bottom: solid 4px #9E9E9E;
+    /* 背景色は紫 */
+    background-color: #E0E0E0;
+    /* パッディング(ボタン内側の余白)の設定 上下10px、左右16px */
+    padding: 10px 16px;
+    /* ボタンの角を少し丸くする */
+    border-radius: 4px;
+    /* ボタンに影をつける */
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),0px 2px 2px 0px rgba(0, 0, 0, 0.14),0px 1px 5px 0px rgba(0,0,0,.12);
+    /* 影をふわっと表示させる */
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* 波紋用spanタグをボタン内に配置するための設定 */
+    position: relative;
+    /* 波紋がボタンからはみ出ないようにする */
+    /* overflow: hidden;
+    color: #BDBDBD;
+    background: #E0E0E0; */
+    /* border-bottom: solid 4px #9E9E9E; */
 }
 
 table {

@@ -21,10 +21,10 @@ const minPass3 = document.getElementById("minutesPass3");
 const minRest3 = document.getElementById("minutesRest3");
 const minPassArray = [minPass1, minPass2, minPass3];
 const minRestArray = [minRest1, minRest2, minRest3];
-let minutes = [8, 10, 0]; // minutes
+let minutes = [8, 10, 14]; // minutes
 let timer;
 let startTime = 0; // milli seconds 開始した時間
-let limitTime = 10; // minutes 発表時間（制限時間）
+let limitTime = 15; // minutes 発表時間（制限時間）
 let passTime = 0; // seconds 経過時間
 let passBackup = 0; // seconds 経過時間用のバックアップ
 let wrapBackup = 0; // seconds ラップ用のバックアップ
